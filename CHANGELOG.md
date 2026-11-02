@@ -1,6 +1,7 @@
 # Changelog
 
 ## [Unreleased]
+- Naming convention: git now tracks the lowercase directory names `assets/ css/ inc/ js/ sub/` (the working tree already had them, but the git index still held `Assets/ Css/ Inc/ Js/ Sub/` because macOS's case-insensitive filesystem hid the rename). **Breaking for case-sensitive checkouts (Linux/Plesk) of earlier versions:** they contained the capitalised names, so `inc/footer.php`, `sub/404.php` etc. did not resolve there; after this version they do. Sites cloned from this template that still use the capitalised directories on Linux must rename them (`git mv Inc inc_tmp && git mv inc_tmp inc`, etc.). Also stopped tracking `Sub/.DS_Store`.
 - Added `deploy/post-deploy.sh`, following the same pattern used to fix a confirmed ecosystem-wide
   deploy bug in every `rio-*-server` repo: Plesk's git "pull" deploy mode file-copies a repo into
   each vhost with no `.git` present, so every `submodules/<name>/` directory arrives completely
