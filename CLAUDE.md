@@ -62,7 +62,7 @@ until such a vhost actually exists; see the script's own header comment.
 ## Submodule dependencies (`submodules/`)
 
 Pinned via `.gitmodules` to the `production` branch of each sibling repo, all under
-`github.com/Soliver098/`. `git submodule update --init --recursive` after cloning.
+`github.com/RIO-Webdesign/`. `git submodule update --init --recursive` after cloning.
 
 - **`rio-website`** — intended shared base site class (site URL helpers, asset cache-busting,
   reCAPTCHA validation) that `index.php`/`inc/footer.php` are meant to build on. **As currently

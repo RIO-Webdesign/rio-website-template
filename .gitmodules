@@ -1,16 +1,16 @@
 [submodule "submodules/rio-website"]
 	path = submodules/rio-website
-	url = git@github.com:Soliver098/rio-website.git
+	url = git@github.com:RIO-Webdesign/rio-website.git
 	branch = production
 [submodule "submodules/rio-style"]
 	path = submodules/rio-style
-	url = git@github.com:Soliver098/rio-style.git
+	url = git@github.com:RIO-Webdesign/rio-style.git
 	branch = production
 [submodule "submodules/rio-monitor-sdk"]
 	path = submodules/rio-monitor-sdk
-	url = git@github.com:Soliver098/rio-monitor-sdk.git
+	url = git@github.com:RIO-Webdesign/rio-monitor-sdk.git
 	branch = production
 [submodule "submodules/rio-translation-sdk"]
 	path = submodules/rio-translation-sdk
-	url = git@github.com:Soliver098/rio-translation-sdk.git
+	url = git@github.com:RIO-Webdesign/rio-translation-sdk.git
 	branch = production
