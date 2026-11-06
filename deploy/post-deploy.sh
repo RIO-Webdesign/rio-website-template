@@ -71,7 +71,7 @@ populate() {
   git -C "$path" submodule update --init --recursive --quiet
 }
 
-populate submodules/rio-website        git@github.com:Soliver098/rio-website.git         production
-populate submodules/rio-style          git@github.com:Soliver098/rio-style.git           production
-populate submodules/rio-monitor-sdk    git@github.com:Soliver098/rio-monitor-sdk.git     production
-populate submodules/rio-translation-sdk git@github.com:Soliver098/rio-translation-sdk.git production
+populate submodules/rio-website        git@github.com:RIO-Webdesign/rio-website.git         production
+populate submodules/rio-style          git@github.com:RIO-Webdesign/rio-style.git           production
+populate submodules/rio-monitor-sdk    git@github.com:RIO-Webdesign/rio-monitor-sdk.git     production
+populate submodules/rio-translation-sdk git@github.com:RIO-Webdesign/rio-translation-sdk.git production
